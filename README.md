@@ -63,48 +63,6 @@
 
 如果您对本项目感兴趣或有任何建议，欢迎提交 Issue 或关注本仓库以获取更新。
 
----
-
-## 🔧 开发与发版工具
-
-### 发布前密钥校验（必跑）
-
-```bash
-python scripts/pre_release_check.py
-```
-
-该脚本会检查以下 4 项，**全部 PASS** 后方可发布：
-
-1. **占位符扫描** — `payment_server/config/payment.yaml`、`website/wrangler.jsonc`、`.env`、`.dev.vars` 中是否还有 `yourdomain.com`、`change-me`、`YOUR_D1_DATABASE_ID` 等占位符
-2. **版本号三处一致性** — `src/gui/about_tab.py` 的 `APP_VERSION`、`version_info.txt` 的 `ProductVersion`、`payment.yaml` 的 `app_version.latest_version` 三处必须一致
-3. **HMAC 双端一致性** — 客户端 `src/payment/payment_config.py` 的字节数组必须与 `payment_server/.env` 的 `HMAC_SECRET` 完全一致
-4. **JWT RSA 公私钥配对** — 客户端 `src/license/jwt_parser.py` 的 `_RSA_PUBLIC_KEYS["key-v1"]` 必须与 `payment_server/keys/private_key.pem` 配对
-
-详细清单与说明见 [`docs/RELEASE_SECRETS.md`](./docs/RELEASE_SECRETS.md)。
-
-### HMAC 密钥轮换
-
-如需轮换客户端/服务端共享的 HMAC 密钥，按 [`docs/HMAC_ROTATION.md`](./docs/HMAC_ROTATION.md) 中的 SOP 操作。
-
-### 不可变加密参数校验
-
-```bash
-python scripts/verify_crypto_params.py
-```
-
-检查 `license.dat`、数据库、设置文件的加密参数未被意外修改。**改了就过不了**，必须配合全网数据迁移。
-
-### 一键生成部署密钥
-
-```bash
-python scripts/generate_deploy_secrets.py
-```
-
-生成 `HMAC_SECRET` / `SECRET_KEY` / `DBVIEW_PASSWORD`，并输出客户端 `_p = [...]` 字节数组。
-
----
-
-*把微信收藏变成你的知识库！*
 
 
 
