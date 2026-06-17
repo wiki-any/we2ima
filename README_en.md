@@ -65,6 +65,12 @@ If you are interested in this project or have any suggestions, feel free to open
 
 ---
 
+## ⭐ Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=BestAiToolsBase/we2ima&type=Date)](https://star-history.com/#BestAiToolsBase/we2ima&Date)
+
+---
+
 *Transform Your WeChat Favorites into ima Knowledge Base*
 
 

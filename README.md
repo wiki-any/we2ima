@@ -63,4 +63,13 @@
 
 如果您对本项目感兴趣或有任何建议，欢迎提交 Issue 或关注本仓库以获取更新。
 
+## ⭐ Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=BestAiToolsBase/we2ima&type=Date)](https://star-history.com/#BestAiToolsBase/we2ima&Date)
+
+---
+
 *把微信收藏变成你的知识库！*
+
+
+
