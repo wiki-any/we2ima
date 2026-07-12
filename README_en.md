@@ -47,8 +47,8 @@ WeChat is one of the largest content ecosystems, but its content is often trappe
 
 - [x] **Phase 1: Project Concept & Architecture** (Completed)
 - [x] **Phase 2: Full-featured GUI & Core Automation** (Completed - Internal)
-- [ ] **Phase 3: Repository Warm-up** (Current)
-- [ ] **Phase 4: Partial Open Source** (Core UI & Data Management)
+- [x] **Phase 3: Repository Warm-up** (Completed)
+- [ ] **Phase 4: Partial Open Source** (Current)
 - [ ] **Phase 5: Full Open Source & Community Beta**
 
 ## ⚠️ Disclaimer
