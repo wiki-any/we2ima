@@ -1,0 +1,59 @@
+{
+   "action": {
+      "default_icon": "img/ima.png",
+      "default_title": "添加浏览内容至ima知识库"
+   },
+   "background": {
+      "service_worker": "service-worker-loader.js",
+      "type": "module"
+   },
+   "content_scripts": [ {
+      "css": [ "./src/content-script/index.css" ],
+      "js": [ "assets/main.tsx-loader.js" ],
+      "matches": [ "file://*/*" ],
+      "run_at": "document_start"
+   }, {
+      "css": [ "./src/content-script/index.css" ],
+      "js": [ "assets/main.tsx-loader.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_end"
+   }, {
+      "js": [ "assets/bilibili-prepare.js-ChT6Ts5k.js" ],
+      "matches": [ "https://www.bilibili.com/*", "https://bilibili.com/*" ],
+      "run_at": "document_start",
+      "world": "MAIN"
+   }, {
+      "js": [ "assets/ima-auto-locator.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_idle"
+   } ],
+   "description": "一键将浏览内容保存到您的ima知识库，从而更有效地积累信息，提升工作和学习效率。",
+   "externally_connectable": {
+      "ids": [ "*" ],
+      "matches": [ "*://*.qq.com/*" ]
+   },
+   "host_permissions": [ "\u003Call_urls>", "*://*/", "file:///*/*", "file://*/*" ],
+   "icons": {
+      "128": "img/ima.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAx+W+IFAojBFjBCdKeQsq8xj9qB3BaSsCmPp0iAUuTb0zJ9AklCDnJ+D+Md7Rtm2xrjnWHfbVdly+MQCG+QueCG0O8vCS+eBNFgEolre32LurReG6wpvmyEjt6cMlWIteqAZDK7mB40hxVCcpsWkYyI8p4aoery7+INnC5y9OXm5s1EvvPz6HYwlJUx8xQujqer6CoIGITnmjQdZi/XKSHIBf/5pp+Er6t8s/aGYqzShDxce61CLw0LX+2qm5Suuu76wylmSAI+oYUsnytYz6xgiHELaOeC92CIApO2e68DaDklL7/y9wzsyTyHR0yJXMFyPSpuV3+vuCGTnUHgV2FwIDAQAB",
+   "manifest_version": 3,
+   "minimum_chrome_version": "88.0.0.0",
+   "name": "ima知识库",
+   "permissions": [ "storage", "tabs", "activeTab", "scripting", "contextMenus", "webNavigation", "windows" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.1.3",
+   "web_accessible_resources": [ {
+      "matches": [ "*://*/*" ],
+      "resources": [ "img/ima.png", "img/collect-logo.png", "img/collected-logo.png", "img/upload-logo.png", "distiller/x5_distiller.js", "distiller/wechat_official_distiller.js", "src/content-script/index.css", "src/popup/popup.html", "src/popup/popup-local-file.html", "assets/add-bg-CyB0dS3y.png", "assets/bilibili-prepare.js-ChT6Ts5k.js", "assets/clear-5scQndJy.svg", "assets/clear-black-BLMOEGBA.svg", "assets/colorful-ai-chat-BKZnTJC5.svg", "assets/colorful-ai-chat-big-D4bWY2q-.svg", "assets/colorful-ima-logo-BkXOwlMp.svg", "assets/colorful-note-BGMEqyNh.svg", "assets/colorful-ppt-file-BoCQgXBK.svg", "assets/colorful-web-link-CrIMCHMt.svg", "assets/colorful-wechat-CRW-oAs1.svg", "assets/colorful-xmind-file-BlmBDT7o.svg", "assets/empty-cover-DYevR13p.svg", "assets/empty-cover-small-DiKn9a-E.svg", "assets/folder-big-CHs24TD3.png", "assets/ima-knowledge-base-logo-DUIa1max.svg", "assets/ima-logo-DPYSSBGg.png", "assets/ima-logo-v2-2VUPFCtB.svg", "assets/ima-logo-v5-CJ8ipbim.svg", "assets/ima-share-logo-B2sG890G.svg", "assets/index-B2XMTuKu.js", "assets/index.ts-DIi-6bZL.js", "assets/knowledge-base-code-logo-DD4KuZVA.svg", "assets/knowledge-chat-DfAQzQwQ.svg", "assets/main-D3QSPuwK.js", "assets/main.tsx-4Arvcn_7.js", "assets/main.tsx-loader.js", "assets/no-join-knowledge-base-B6hY7Kk_.svg", "assets/pkg-v4DkfTZf.js", "assets/polyfills-BXuOFIB_.js", "assets/popup-local-file.html-DG9tzSy7.js", "assets/safari-BXFVtqTu.svg", "assets/slogan-COdw1DUp.svg", "assets/styles-4_rtgbb-.js", "assets/theme-QPRYe57X.svg", "assets/upload-bg-CvRchtna.png", "assets/yellow-v-C9EbyuoZ.svg" ],
+      "use_dynamic_url": false
+   }, {
+      "matches": [ "file://*/*" ],
+      "resources": [ "assets/styles-4_rtgbb-.js", "assets/index-B2XMTuKu.js", "assets/pkg-v4DkfTZf.js", "assets/main.tsx-4Arvcn_7.js" ],
+      "use_dynamic_url": false
+   }, {
+      "matches": [ "https://bilibili.com/*", "https://www.bilibili.com/*" ],
+      "resources": [ "assets/bilibili-prepare.js-ChT6Ts5k.js" ],
+      "use_dynamic_url": false
+   } ]
+}
