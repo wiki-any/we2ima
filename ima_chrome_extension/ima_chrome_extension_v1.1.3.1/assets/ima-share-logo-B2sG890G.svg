@@ -1,0 +1,50 @@
+<svg viewBox="0 0 68 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_1_79)">
+<g filter="url(#filter0_n_1_79)">
+<g clip-path="url(#clip1_1_79)">
+<rect x="16.9766" y="14" width="43.7579" height="43.7579" rx="12.7442" transform="rotate(15.8846 16.9766 14)" fill="#E8E8E8"/>
+<rect x="16.9765" y="13.9998" width="40.4012" height="40.6348" rx="11.4698" transform="rotate(15.8846 16.9765 13.9998)" fill="white"/>
+<g clip-path="url(#clip2_1_79)">
+<path d="M53.3675 34.5896C55.4938 33.8567 55.93 30.9886 54.3527 28.1801C52.7754 25.3716 49.7697 23.6945 47.6521 24.4307C45.5346 25.1668 45.0896 28.0317 46.6669 30.8402C48.2442 33.6487 51.2393 35.3256 53.3675 34.5896Z" fill="black"/>
+<path d="M16.0113 23.2176C14.9204 21.6139 15.965 19.019 18.3407 17.4143C20.7165 15.8096 23.5242 15.8144 24.6089 17.417C25.6937 19.0196 24.6552 21.6156 22.2795 23.2203C19.9038 24.825 17.102 24.8247 16.0113 23.2176Z" fill="black"/>
+<path d="M16.1171 37.6706C14.8503 35.7621 16.0925 32.6554 18.8873 30.7228C21.682 28.7903 24.9727 28.7732 26.2327 30.679C27.4928 32.5848 26.2575 35.6935 23.4633 37.627C20.6691 39.5605 17.3848 39.5786 16.1171 37.6706Z" fill="black"/>
+<path d="M28.5971 41.1265C30.1347 41.5641 31.5688 41.2465 31.8037 40.4213C32.0385 39.5962 30.9864 38.5711 29.4488 38.1336C27.9112 37.696 26.477 38.0135 26.2422 38.8387C26.0073 39.6639 27.0595 40.689 28.5971 41.1265Z" fill="black"/>
+<path d="M43.5379 36.3638C43.5379 36.3638 36.8472 37.4471 35.764 37.4471L41.4989 42.7359" stroke="black" stroke-width="3.18605" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+<g clip-path="url(#clip3_1_79)">
+<path d="M62.3459 6.68828C65.8416 7.68256 67.87 11.3226 66.8759 14.8185L66.1669 17.3114C65.1728 20.8073 61.5326 22.8353 58.0368 21.8414L57.3342 21.6416C56.3313 21.3564 55.2522 21.5634 54.4261 22.1995L53.2275 23.1227C52.7899 23.4593 52.1516 23.2778 51.9566 22.7613L51.4231 21.3455C51.0554 20.3699 50.2466 19.6261 49.2438 19.3409L48.5412 19.1411C45.0454 18.1469 43.0171 14.5068 44.0112 11.011L44.7201 8.51801C45.7142 5.02217 49.3544 2.99409 52.8503 3.98802L62.3459 6.68828ZM51.186 9.84401C50.3121 9.5955 49.4018 10.1029 49.1532 10.9767C48.9046 11.8507 49.4119 12.761 50.2858 13.0095C51.1597 13.2578 52.0692 12.7505 52.3177 11.8766C52.566 11.0028 52.0597 10.0926 51.186 9.84401ZM55.9333 11.194C55.0595 10.9455 54.1492 11.4529 53.9005 12.3267C53.652 13.2007 54.1592 14.111 55.0332 14.3595C55.9071 14.6079 56.8175 14.1008 57.066 13.2269C57.3143 12.3531 56.8071 11.4426 55.9333 11.194ZM60.6795 12.5447C59.8057 12.2962 58.8957 12.8029 58.6469 13.6764C58.3984 14.5504 58.9056 15.4607 59.7796 15.7093C60.6535 15.9578 61.5639 15.4506 61.8124 14.5766C62.0604 13.7028 61.5532 12.7932 60.6795 12.5447Z" fill="#079D55"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_n_1_79" x="5" y="14" width="54.0636" height="54.0636" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feTurbulence type="fractalNoise" baseFrequency="3.9233541488647461 3.9233541488647461" stitchTiles="stitch" numOctaves="3" result="noise" seed="295" />
+<feColorMatrix in="noise" type="luminanceToAlpha" result="alphaNoise" />
+<feComponentTransfer in="alphaNoise" result="coloredNoise1">
+<feFuncA type="discrete" tableValues="1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 "/>
+</feComponentTransfer>
+<feComposite operator="in" in2="shape" in="coloredNoise1" result="noise1Clipped" />
+<feFlood floodColor="rgba(0, 0, 0, 0.02)" result="color1Flood" />
+<feComposite operator="in" in2="noise1Clipped" in="color1Flood" result="color1" />
+<feMerge result="effect1_noise_1_79">
+<feMergeNode in="shape" />
+<feMergeNode in="color1" />
+</feMerge>
+</filter>
+<clipPath id="clip0_1_79">
+<rect width="68" height="56" fill="white"/>
+</clipPath>
+<clipPath id="clip1_1_79">
+<rect x="16.9766" y="14" width="43.7579" height="43.7579" rx="12.7442" transform="rotate(15.8846 16.9766 14)" fill="white"/>
+</clipPath>
+<clipPath id="clip2_1_79">
+<rect width="43.7579" height="30.318" fill="white" transform="translate(16.9765 13.9998) rotate(15.8846)"/>
+</clipPath>
+<clipPath id="clip3_1_79">
+<rect width="26.3238" height="26.3238" fill="white" transform="translate(46.0842 -2.29617) rotate(15.8742)"/>
+</clipPath>
+</defs>
+</svg>

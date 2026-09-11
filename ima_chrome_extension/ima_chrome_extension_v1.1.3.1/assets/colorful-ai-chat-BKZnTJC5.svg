@@ -1,0 +1,134 @@
+<svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g clip-path="url(#clip0_5915_237933)">
+    <g filter="url(#filter0_d_5915_237933)">
+      <mask
+        id="path-1-outside-1_5915_237933"
+        maskUnits="userSpaceOnUse"
+        x="0.5"
+        y="0.5"
+        width="15"
+        height="15"
+        fill="black"
+      >
+        <rect fill="white" x="0.5" y="0.5" width="15" height="15" />
+        <path
+          d="M2.5 4.5C2.5 3.39543 3.39543 2.5 4.5 2.5H11.5C12.6046 2.5 13.5 3.39543 13.5 4.5V11.5C13.5 12.6046 12.6046 13.5 11.5 13.5H4.5C3.39543 13.5 2.5 12.6046 2.5 11.5V4.5Z"
+        />
+      </mask>
+      <path
+        d="M2.5 4.5C2.5 3.39543 3.39543 2.5 4.5 2.5H11.5C12.6046 2.5 13.5 3.39543 13.5 4.5V11.5C13.5 12.6046 12.6046 13.5 11.5 13.5H4.5C3.39543 13.5 2.5 12.6046 2.5 11.5V4.5Z"
+        fill="#205AEF"
+      />
+      <path
+        d="M4.5 3.875H11.5V1.125H4.5V3.875ZM12.125 4.5V11.5H14.875V4.5H12.125ZM11.5 12.125H4.5V14.875H11.5V12.125ZM3.875 11.5V4.5H1.125V11.5H3.875ZM4.5 12.125C4.15482 12.125 3.875 11.8452 3.875 11.5H1.125C1.125 13.364 2.63604 14.875 4.5 14.875V12.125ZM12.125 11.5C12.125 11.8452 11.8452 12.125 11.5 12.125V14.875C13.364 14.875 14.875 13.364 14.875 11.5H12.125ZM11.5 3.875C11.8452 3.875 12.125 4.15482 12.125 4.5H14.875C14.875 2.63604 13.364 1.125 11.5 1.125V3.875ZM4.5 1.125C2.63604 1.125 1.125 2.63604 1.125 4.5H3.875C3.875 4.15482 4.15482 3.875 4.5 3.875V1.125Z"
+        fill="white"
+        mask="url(#path-1-outside-1_5915_237933)"
+      />
+    </g>
+    <g clip-path="url(#clip1_5915_237933)">
+      <path
+        d="M2.5 4.5C2.5 3.39543 3.39543 2.5 4.5 2.5H11.5C12.6046 2.5 13.5 3.39543 13.5 4.5V11.5C13.5 12.6046 12.6046 13.5 11.5 13.5H4.5C3.39543 13.5 2.5 12.6046 2.5 11.5V4.5Z"
+        fill="white"
+      />
+      <g filter="url(#filter1_f_5915_237933)">
+        <circle cx="6.20611" cy="11.2442" r="2.99615" fill="#4DEE9E" />
+      </g>
+      <g filter="url(#filter2_f_5915_237933)">
+        <circle cx="4.41838" cy="7.62541" r="3.62541" fill="#F6F7FA" />
+      </g>
+      <g filter="url(#filter3_f_5915_237933)">
+        <circle cx="9.202" cy="13.6532" r="3.34653" fill="#D6E807" />
+      </g>
+      <path
+        d="M12.7133 5.29314C13.1623 4.91243 13.0733 4.06101 12.517 3.3896C11.9606 2.71819 11.1452 2.48439 10.6985 2.8653C10.2518 3.24621 10.3385 4.09743 10.8949 4.76884C11.4512 5.44025 12.2642 5.67488 12.7133 5.29314Z"
+        fill="black"
+      />
+      <path
+        d="M3.31263 5.29314C2.86387 4.91243 2.95267 4.06101 3.50928 3.3896C4.06589 2.71819 4.88062 2.48439 5.32752 2.8653C5.77443 3.24621 5.68749 4.09743 5.13088 4.76884C4.57427 5.44025 3.76161 5.67488 3.31263 5.29314Z"
+        fill="black"
+      />
+      <path
+        d="M4.7813 9.1123C4.33267 8.73134 4.42144 7.87982 4.97788 7.20853C5.53432 6.53725 6.3488 6.30259 6.79556 6.68334C7.24233 7.06409 7.15542 7.91562 6.59919 8.58711C6.04296 9.2586 5.23013 9.49305 4.7813 9.1123Z"
+        fill="black"
+      />
+      <path
+        d="M9.42691 8.5871C8.87068 7.9154 8.7819 7.06388 9.23053 6.68334C9.67916 6.30279 10.4928 6.53683 11.0482 7.20853C11.6036 7.88023 11.6934 8.73154 11.2448 9.1123C10.7962 9.49305 9.98128 9.25653 9.42691 8.5871Z"
+        fill="black"
+      />
+      <path
+        d="M8.01216 9.31735C8.40119 9.31735 8.71573 9.12242 8.71573 8.8828C8.71573 8.64317 8.40119 8.44824 8.01216 8.44824C7.62313 8.44824 7.30859 8.64317 7.30859 8.8828C7.30859 9.12242 7.62313 9.31735 8.01216 9.31735Z"
+        fill="black"
+      />
+    </g>
+  </g>
+  <defs>
+    <filter
+      id="filter0_d_5915_237933"
+      x="0.248774"
+      y="0.248774"
+      width="15.5025"
+      height="15.5025"
+      filterUnits="userSpaceOnUse"
+      color-interpolation-filters="sRGB"
+    >
+      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+      <feColorMatrix
+        in="SourceAlpha"
+        type="matrix"
+        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+        result="hardAlpha"
+      />
+      <feOffset />
+      <feGaussianBlur stdDeviation="0.438113" />
+      <feComposite in2="hardAlpha" operator="out" />
+      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.4 0" />
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_5915_237933" />
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_5915_237933" result="shape" />
+    </filter>
+    <filter
+      id="filter1_f_5915_237933"
+      x="0.209961"
+      y="5.24805"
+      width="11.9922"
+      height="11.9922"
+      filterUnits="userSpaceOnUse"
+      color-interpolation-filters="sRGB"
+    >
+      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+      <feGaussianBlur stdDeviation="1.5" result="effect1_foregroundBlur_5915_237933" />
+    </filter>
+    <filter
+      id="filter2_f_5915_237933"
+      x="-2.33203"
+      y="0.875"
+      width="13.501"
+      height="13.501"
+      filterUnits="userSpaceOnUse"
+      color-interpolation-filters="sRGB"
+    >
+      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+      <feGaussianBlur stdDeviation="1.5625" result="effect1_foregroundBlur_5915_237933" />
+    </filter>
+    <filter
+      id="filter3_f_5915_237933"
+      x="2.85547"
+      y="7.30664"
+      width="12.6934"
+      height="12.6934"
+      filterUnits="userSpaceOnUse"
+      color-interpolation-filters="sRGB"
+    >
+      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+      <feGaussianBlur stdDeviation="1.5" result="effect1_foregroundBlur_5915_237933" />
+    </filter>
+    <clipPath id="clip0_5915_237933">
+      <rect width="16" height="16" fill="white" />
+    </clipPath>
+    <clipPath id="clip1_5915_237933">
+      <rect x="2.5" y="2.5" width="11" height="11" rx="2" fill="white" />
+    </clipPath>
+  </defs>
+</svg>
