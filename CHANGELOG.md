@@ -8,7 +8,7 @@ Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), versio
 
 ---
 
-## [1.1.0] - 2026-09-12
+## [1.1.0] - 2026-09-15
 
 本次更新是一次打包与更新体系重构及导入体验增强版本：分发方式从压缩包改为 Windows 安装包（运行全程零临时解压，根治杀毒软件误报与文件锁定导致的启动失败，启动更快更稳定）；自动更新升级为完整安装包静默升级；新增安装完整性自检、文章打开方式自适应与慢速导入模式提示；快速导入升级为持久化全局偏好并覆盖定时与全自动任务，且速度大幅优化（实测仅导入"链接"分类目录白天约 150 篇/小时、双目录导入约 95 篇/小时，较优化前提升近一倍）。本次发布一并包含下方 v1.0.4 开发周期（未单独对外发布）的全部更新。
 This release is a packaging-and-update overhaul plus import-experience update: distribution moves from a zip archive to a Windows installer (zero temporary extraction at runtime, permanently fixing the antivirus false positives and file locks that broke startup, with faster and more stable launches); automatic updates now silently run a full installer; new install-integrity self-check, adaptive open-mode handling, and a Slow Import Mode notice are added; Fast Import becomes a persisted global preference covering scheduled and Full Auto tasks, and is now significantly faster (measured ~150 articles/hour daytime when importing to the "Links" category directory only, ~95 articles/hour for dual-directory imports — nearly double the previous speed). It also includes everything from the v1.0.4 development cycle below (never released separately).
