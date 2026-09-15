@@ -53,7 +53,7 @@
 
 ## 在线教程
 
-- 跟随v1.1.0版发布，在产品官网同步新增了“在线教程”（https://www.we2ima.com/guides/），其中“安装及使用教程”指导页面（https://www.we2ima.com/guides/tutorial/），分类更细致、阅读更友好。
+- 跟随v1.1.0版发布，在产品官网同步新增了“在线教程”(https://www.we2ima.com/guides/)，其中“安装及使用教程”指导页面(https://www.we2ima.com/guides/tutorial/)，分类更细致、阅读更友好。
 
 ## ⚠️ 免责声明
 
